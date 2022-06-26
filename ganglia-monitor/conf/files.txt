@@ -1,0 +1,10 @@
+http://archive.apache.org/dist/apr/apr-1.6.2.tar.gz
+https://archive.apache.org/dist/apr/apr-util-1.6.0.tar.gz
+http://download.savannah.gnu.org/releases/confuse/confuse-2.7.tar.gz
+http://distfiles.macports.org/expat/expat-2.1.0.tar.gz
+https://oss.oetiker.ch/rrdtool/pub/rrdtool-1.5.0.tar.gz
+https://ftp.pcre.org/pub/pcre/pcre-8.32.tar.gz
+https://mirrors.tuna.tsinghua.edu.cn/apache/httpd/httpd-2.4.48.tar.gz
+https://www.php.net/distributions/php-7.3.29.tar.gz
+http://distfiles.macports.org/ganglia/ganglia-3.7.2.tar.gz
+http://distfiles.macports.org/ganglia-web/ganglia-web-3.7.2.tar.gz
