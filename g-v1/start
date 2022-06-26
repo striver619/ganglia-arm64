@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cmd=(
+    docker run
+    -dit
+    --name ganglia-aarch64-1
+    --privileged=true
+    -p 80:80
+    -p 8649:8649
+    ganglia-aarch64:v1
+    /usr/sbin/init
+)
+
+"${cmd[@]}"
