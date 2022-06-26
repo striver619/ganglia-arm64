@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# MAINTAINER zhangqichen <17852657226@163.com>
+# MAINTAINER 
 
 set -e
 
@@ -43,10 +43,10 @@ ganglia()
         cd ganglia-3.7.2
 
         ## modify libmetrics/linux/metrics.c
-	## ÏÈ627ĞĞ,×·¼Ó3ĞĞÄÚÈİ
+	## å…ˆ627è¡Œ,è¿½åŠ 3è¡Œå†…å®¹
 	sed -i '627 i\#ifdef __aarch64__ \n   snprintf(val.str, MAX_G_STRING_SIZE, "aarch64"); \n#endif' libmetrics/linux/metrics.c
 
-	## ºó520ĞĞ,×·¼Ó6ĞĞÄÚÈİ
+	## å520è¡Œ,è¿½åŠ 6è¡Œå†…å®¹
 	sed -i '520 i\#if defined (__aarch64__) \n    if (! val.uint32 ) \n    { \n        val.uint32 = 2600; \n    } \n#endif' libmetrics/linux/metrics.c
         
         ./configure --prefix=/usr/local/ganglia --with-librrd=/usr/local/rrdtool --with-libconfuse=/usr/local/confuse \
