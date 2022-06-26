@@ -1,7 +1,7 @@
 readme:
 
-1-install.sh 安装ganglia
+1-install.sh 瀹夎ganglia
 
-2-install.sh 安装ganglia、gangliaweb
+2-install.sh 瀹夎ganglia銆乬angliaweb
 
-Dockerfile 打包镜像
+Dockerfile 鎵撳寘闀滃儚
