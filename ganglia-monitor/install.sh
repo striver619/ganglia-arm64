@@ -5,7 +5,7 @@
 # start
 # main
 
-# MAINTAINER zhangqichen <17852657226@163.com>
+# MAINTAINER
 
 env()
 {
@@ -139,4 +139,4 @@ main()
 main
 
 
-# 函数多搞一些
+# 潞炉脢媒露脿赂茫脪禄脨漏
